@@ -7,18 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		896B16002803E74E00387A90 /* ob3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B15FF2803E74E00387A90 /* ob3App.swift */; };
-		896B16022803E74E00387A90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B16012803E74E00387A90 /* ContentView.swift */; };
 		896B16042803E74F00387A90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 896B16032803E74F00387A90 /* Assets.xcassets */; };
 		896B16072803E74F00387A90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 896B16062803E74F00387A90 /* Preview Assets.xcassets */; };
+		896B160E2803E77A00387A90 /* ob3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B160D2803E77A00387A90 /* ob3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		896B15FC2803E74E00387A90 /* ob3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ob3.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		896B15FF2803E74E00387A90 /* ob3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ob3App.swift; sourceTree = "<group>"; };
-		896B16012803E74E00387A90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		896B16032803E74F00387A90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		896B16062803E74F00387A90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		896B160D2803E77A00387A90 /* ob3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ob3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +49,7 @@
 		896B15FE2803E74E00387A90 /* ob3 */ = {
 			isa = PBXGroup;
 			children = (
-				896B15FF2803E74E00387A90 /* ob3App.swift */,
-				896B16012803E74E00387A90 /* ContentView.swift */,
+				896B160D2803E77A00387A90 /* ob3.swift */,
 				896B16032803E74F00387A90 /* Assets.xcassets */,
 				896B16052803E74F00387A90 /* Preview Content */,
 			);
@@ -137,8 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				896B16022803E74E00387A90 /* ContentView.swift in Sources */,
-				896B16002803E74E00387A90 /* ob3App.swift in Sources */,
+				896B160E2803E77A00387A90 /* ob3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
